@@ -1,0 +1,78 @@
+@import url('./layout.css');
+main {
+
+    margin-top: 1em;
+    justify-content: left;
+}
+figure{
+    width:200px;
+    float: left;
+    margin-top: 1em;
+    margin-right: 1em;
+}
+figure img{
+width: 100%;
+}
+
+aside {
+    border: 1px solid black;
+    border-radius: 15px 50px 30px 5px;
+    width: 30%;
+    order: 1;
+
+}
+aside header{
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+aside h1{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+aside>cite{
+    width: 90%;
+    margin-left: 1.0em;
+    display: block;
+    padding: 1.0em;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+
+}
+aside>cite>a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+aside>cite>a:hover{
+    color: gray;
+}
+aside img{
+    width: 90%;
+
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+
+footer{
+    background-color: rgb(235, 212, 6);
+}
+footer ul{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+footer img{
+    width: 50px;
+    margin-top: 1em;
+}
+
+footer p{
+    text-align: center;
+    margin: 1em;
+}
